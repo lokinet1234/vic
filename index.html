@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Justice | Homepage | United States Department of Justice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .header {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1a2c42;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .header .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .header .nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .slider {
+            grid-column: 1 / -1;
+            background-color: #e0e0e0;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+        }
+
+        .action-center {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+
+        .action-center .action-item {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        .about {
+            grid-column: 1 / 9;
+            background-color: white;
+            padding: 20px;
+        }
+
+        .by-the-numbers {
+            grid-column: 9 / -1;
+            background-color: white;
+            padding: 20px;
+        }
+
+        .our-work {
+            grid-column: 1 / -1;
+            background-color: white;
+            padding: 20px;
+        }
+
+        .news {
+            grid-column: 1 / 7;
+            background-color: white;
+            padding: 20px;
+        }
+
+        .most-wanted {
+            grid-column: 7 / -1;
+            background-color: white;
+            padding: 20px;
+        }
+
+        .footer {
+            grid-column: 1 / -1;
+            background-color: #1a2c42;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        <header class="header">
+            <div class="logo">
+                <img src="https://www.justice.gov/themes/justice/assets/images/doj-seal-blue-crest-for-dark-bgs.svg" alt="Department of Justice Seal" style="height: 50px; margin-right: 10px;">
+                Department of Justice
+            </div>
+            <nav class="nav">
+                <a href="#">About</a>
+                <a href="#">Our Work</a>
+                <a href="#">News</a>
+                <a href="#">Resources</a>
+                <a href="#">Employment</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </header>
+
+        <section class="slider">
+            <div>
+                <!-- This is a placeholder for the slider -->
+                <p>Main Slider Content</p>
+            </div>
+        </section>
+
+        <section class="action-center">
+            <div class="action-item">Report a Crime</div>
+            <div class="action-item">Find Missing Persons</div>
+            <div class="action-item">Find Help for Victims</div>
+            <div class="action-item">Apply for Permits</div>
+            <div class="action-item">Locate a Prison/Inmate</div>
+            <div class="action-item">Careers at DOJ</div>
+        </section>
+
+        <section class="about">
+            <h2>Our Mission, Values, and History</h2>
+            <p>The mission of the Department of Justice is to uphold the rule of law, to keep our country safe, and to protect civil rights. [1]</p>
+        </section>
+
+        <aside class="by-the-numbers">
+            <h2>By the Numbers</h2>
+            <ul>
+                <li>7 Litigating Divisions [1]</li>
+                <li>5 Law Enforcement Bureaus [1]</li>
+                <li>94 U.S. Attorneys' Offices [1]</li>
+                <li>$3.2B+ Grants to State, Local & Tribal Partners [1]</li>
+            </ul>
+        </aside>
+
+        <section class="our-work">
+            <h2>Our Work</h2>
+            <p>The Department of Justice consists of multiple components and agencies dedicated to upholding our mission. [1] Learn more about the work we do on a variety of focused topics. [1]</p>
+        </section>
+
+        <section class="news">
+            <h2>News</h2>
+            <p>Latest press releases and updates from the Department of Justice. [1]</p>
+        </section>
+
+        <section class="most-wanted">
+            <h2>From Our Most Wanted Files</h2>
+            <p>Information on wanted fugitives. [1]</p>
+        </section>
+
+        <footer class="footer">
+            <p>© 2025 Department of Justice. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
